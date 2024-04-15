@@ -8,3 +8,7 @@ theme = "hugo-blog-awesome"
 name = "github"
 url = "https://github.com/hugo-sid"
 
+[params]
+  goToTop = true
+
+  
