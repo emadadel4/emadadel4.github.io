@@ -1,0 +1,108 @@
+/* Start of navbar Desktop*/
+.logo {
+  color: var(--logo);
+  text-align: center;
+  align-content: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.theme-toggle {
+  color: var(--link);
+  cursor: pointer;
+}
+
+.langSelector {
+  border: transparent;
+  background-color: transparent;
+  color: var(--a);
+  font-weight: 700;
+}
+
+.langSelector:hover {
+  border: transparent;
+  background-color: transparent;
+}
+
+.active {
+  color: var(--link);
+  font-weight: 800;
+  font-size: 18px;
+}
+
+header {
+  line-height: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+nav ul li a {
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  font-weight: 600;
+}
+
+.mobile {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/* End navbar Desktop */
+
+/* Mobile/Tablet Screen*/
+@media (max-width:900px) {
+
+  nav {
+      position: relative;
+  }
+
+  nav ul {
+      display: none;
+      width: 100%;
+      background-color: var(--navbar);
+      position: absolute;
+      top: 100px;
+      height: auto;
+      text-align: center;
+  }
+
+  nav ul li {
+      display: block;
+  }
+
+  nav ul li a {
+      color: var(--green);
+      font-size: 20px;
+
+  }
+
+  a.mobile {
+      color: var(--a);
+      font-size: 20px;
+      display: block;
+  }
+
+  .logo{
+      font-size: 15px;
+  }
+}
+/* End of navbar Mobile & tablet */

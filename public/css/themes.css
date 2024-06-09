@@ -1,0 +1,119 @@
+@font-face {
+    font-family: myfont;
+    src: url("../fonts/t.ttf");
+}
+
+:root {
+    --clr-dark: #191414;
+    --clr-light: #ffffff;
+    --sec-color: #fafafa;
+    --blog-card: #f6f6f6;
+    --logo: dodgerblue;
+    --navbar: rgb(255, 255, 255);
+    --post-discretion: #000000;
+    --article:rgb(0, 0, 0);
+    --link: dodgerblue;
+}
+
+.dark-mode {
+
+    --clr-light: #171717;
+    --clr-dark: #eeeeee;
+    --sec-color: #183D3D;
+    --blog-card: #1f1f1f;
+    --logo: #00ff88;
+    --navbar: #191414;
+    --post-discretion: #C9D0D2;
+    --article: #C9D0D2;
+    --link: #00ff88;
+}
+
+/* Default Style */
+
+body {
+    background-color: var(--clr-light);
+    font-family: myfont;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button {
+    border: transparent;
+    background-color: var(--link);
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: var(--clr-light);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+p,h1,h2,h3,h4,h5,small,label,span {
+    color: var(--clr-dark);
+}
+/* End Default Style */
+
+/* Start Custom Blog Home page */
+.title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.post-descript{
+    color: var(--post-discretion);
+}
+
+.blog-post {
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#card {
+    background-color: var(--blog-card);
+    border-radius: 10px;
+
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pagination-text {
+    margin-top: 35px;
+    text-align: center;
+    display: none;
+}
+/* End Blog Home page */
+
+
+/* Start Post page */
+
+.article {
+    text-align: center;
+}
+
+.article p{
+    margin-top: 35px;
+    color: var(--article);
+}
+
+article img{
+    height: auto;
+    width: 200px;
+    background-color: #00ff88;
+}
+
+.link {
+    color: var(--link);
+}
+/* End Post page */

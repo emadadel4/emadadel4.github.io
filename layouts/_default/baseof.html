@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/globals.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            {{partial "navbar" .}}
+        </header>
+
+        <aside>
+            {{partial "aside" .}}
+        </aside>
+
+        <main>
+            {{block "main" .}} {{ end }}
+        </main>
+
+        <footer>
+            {{partial "footer" .}}
+        </footer>
+
+    </div>
+</body>
+</html>

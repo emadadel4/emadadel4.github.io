@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Emad Adel'
+
+[Params]
+ dateFormat = "Jan 2, 2006"
+
+[taxonomies]
+ author = "authors"

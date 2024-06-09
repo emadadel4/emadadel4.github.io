@@ -1,0 +1,127 @@
+
+:root {
+
+    --clr-dark: #191414;
+
+    --clr-light: #ffffff;
+
+    --sec-color: #fafafa;
+
+    --title: dodgerblue;
+
+    --blog-card: #f6f6f6;
+
+    --logo: dodgerblue;
+
+    --navbar: rgb(255, 255, 255);
+
+    --dis: #000000;
+
+    --a: dodgerblue;
+
+    --green: dodgerblue;
+
+
+
+}
+
+.dark-mode {
+
+    --clr-light: #191414;
+
+    --clr-dark: #eeeeee;
+
+    --sec-color: #183D3D;
+
+    --title: rgb(255, 255, 255);
+
+    --blog-card: #1f1f1f;
+
+    --logo: #00ff88;
+
+    --navbar: rgb(48, 48, 48);
+
+    --dis: #a7a7a7;
+
+    --a: #00ff88;
+
+    --green: #1DB954;
+
+}
+
+/* Desktop Screen */
+.post {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 100px auto auto;
+    height: 100vh;
+    width: 90%;
+    margin: 90px auto;
+}
+
+/* Mobile & tablet Screen */
+@media (max-width:884px) {
+
+    .post {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto auto;
+        height: 100vh;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header,
+    main,
+    footer {
+        grid-column-start: span 3;
+    }
+}
+
+header {
+    grid-column-start: span 3;
+}
+
+main {
+    grid-column-start: span 3;
+    margin-top: 50px;
+
+}
+
+footer {
+    grid-column-start: span 3;
+    margin-top: 50px;
+}
+
+
+.article p {
+
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+/* Base Post Page */
+.post-title {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.profile {
+    padding: 20px;
+    font-weight: 700;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+}
+
+.download {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+/* End Styling Base Post Page */
