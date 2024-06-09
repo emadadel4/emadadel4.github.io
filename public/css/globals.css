@@ -1,8 +1,3 @@
-@font-face {
-    font-family: myfont;
-    src: url("../fonts/t.ttf");
-}
-
 :root {
     --clr-dark: #191414;
     --clr-light: #ffffff;
@@ -32,7 +27,6 @@
 
 body {
     background-color: var(--clr-light);
-    font-family: myfont;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
