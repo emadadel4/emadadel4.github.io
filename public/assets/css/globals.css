@@ -1,5 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body {
     font-family: "Cairo", sans-serif;
+}
+
+/* Desktop Screen */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px auto auto;
+    height: 100vh;
+    width: 50%;
+    margin: auto auto;
+    
+}
+
+header,aside,footer {
+    grid-column-start: span 3;
+}
+
+main {
+    grid-column-start: span 3;
+    margin-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
 }
 
 a {
@@ -33,4 +65,22 @@ p,h1,h2,h3,h4,h5,small,label,span {
 
 .copy-button:hover {
     background-color: #0056b3;
+}
+
+/* Mobile % Tablet Screen */
+@media (max-width:884px) {
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto auto auto;
+        height: 100vh;
+        width: 90%;
+        margin: 0 auto;
+    }
+    header,
+    aside,
+    main,
+    footer {
+        grid-column-start: span 3;
+    }
 }
