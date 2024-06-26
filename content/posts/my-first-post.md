@@ -15,6 +15,6 @@ Customize your Windows environment with ease. ITT provides scripts to apply syst
 
 {{< figure src="/images/posts/demo.PNG" alt="#" width="700" >}}
 
-## Uasge
+## Usage
 
 `irm bit.ly/emadadel | iex`
