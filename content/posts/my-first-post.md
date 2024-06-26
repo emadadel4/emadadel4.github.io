@@ -13,6 +13,8 @@ Say goodbye to manual software installations. ITT automates the process, saving 
 Customize your Windows environment with ease. ITT provides scripts to apply system tweaks for enhanced performance and usability
 
 
-{{< figure src="/images/posts/demo.PNG" alt="Scenario 1: Across columns" width="600" >}}
+{{< figure src="/images/posts/demo.PNG" alt="#" width="700" >}}
 
-`irm`
+## Uasge
+
+`irm bit.ly/emadadel | iex`
