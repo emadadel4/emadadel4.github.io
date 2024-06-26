@@ -1,11 +1,5 @@
-/* Default Style */
-@font-face {
-    font-family: myfont;
-    src: url('/static/Fonts/ar.ttf');
-}
-
 body {
-    font-family: myfont;
+    font-family: "Cairo", sans-serif;
 }
 
 a {
