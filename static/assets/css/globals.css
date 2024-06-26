@@ -20,6 +20,7 @@ body {
     
 }
 
+/* Default */
 header,aside,footer {
     grid-column-start: span 3;
 }
@@ -42,7 +43,9 @@ a {
 p,h1,h2,h3,h4,h5,small,label,span {
     color: var(--clr-dark);
 }
+/* End Default */
 
+/* Custom */
 #card{
     background-color: whitesmoke;
 }
@@ -66,6 +69,17 @@ p,h1,h2,h3,h4,h5,small,label,span {
 .copy-button:hover {
     background-color: #0056b3;
 }
+
+.artical{
+    margin-top: 100px;
+}
+
+.listItem{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* End Custom */
+
 
 /* Mobile % Tablet Screen */
 @media (max-width:884px) {
