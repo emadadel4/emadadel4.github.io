@@ -12,9 +12,15 @@ avatar = "/images/avatar.jpg"
 Say goodbye to manual software installations. ITT automates the process, saving you time and effort
 Customize your Windows environment with ease. ITT provides scripts to apply system tweaks for enhanced performance and usability
 
+### Demo
+{{< figure src="/images/posts/demo.PNG" alt="#">}}
 
-{{< figure src="/images/posts/demo.PNG" alt="#" width="700" >}}
+### Usage
 
-## Usage
+``````Poershlel
 
-`irm bit.ly/emadadel | iex`
+{{< copycode >}}
+irm bit.ly/emadadel | iex
+{{< /copycode >}}
+
+

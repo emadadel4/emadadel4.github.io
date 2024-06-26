@@ -11,7 +11,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px auto auto;
     height: 100vh;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     
 }
@@ -35,6 +35,8 @@ main {
     grid-column-start: span 2;
     margin-bottom: 50px;
 }
+
+
 
 /* Mobile % Tablet Screen */
 @media (max-width:884px) {
