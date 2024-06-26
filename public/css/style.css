@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* Desktop Screen */
@@ -12,6 +13,7 @@
     height: 100vh;
     width: 40%;
     margin: 0 auto;
+    
 }
 
 header,aside,footer {

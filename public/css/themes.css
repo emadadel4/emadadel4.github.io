@@ -1,8 +1,3 @@
-@font-face {
-    font-family: myfont;
-    src: url("../fonts/t.ttf");
-}
-
 :root {
     --clr-dark: #191414;
     --clr-light: #ffffff;
@@ -37,6 +32,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: "Roboto", sans-serif;
+
 }
 
 button {
