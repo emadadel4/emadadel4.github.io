@@ -1,0 +1,13 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    alert('JavaScript is running!');
+    const images = [
+        'https://w.wallhaven.cc/full/4g/wallhaven-4gdo3l.jpg")'
+    ];
+
+    const randomIndex = Math.floor(Math.random() * images.length);
+    const randomImage = images[randomIndex];
+    console.log('Selected image URL:', randomImage); // Debugging line
+    document.body.style.backgroundImage = `url(${randomImage})`;
+});
+</script>

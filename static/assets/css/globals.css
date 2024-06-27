@@ -1,3 +1,12 @@
+:root{
+    --bg: #121212;
+    --FGColor: #282828;
+    --text: white;
+    --textSoft: white;
+    --button:#1DB954;
+    --link:#1DB954;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +16,36 @@
 
 body {
     font-family: "Cairo", sans-serif;
+    background: var(--bg);
+    z-index: 0;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+body.light{
+
+    --bg: white;
+    --FGColor: whitesmoke;
+    --text: black;
+    --textSoft: lightblue;
+    --button:#525FE1;
+    --link: #525FE1;
 }
 
 /* Desktop Screen */
@@ -15,14 +54,15 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px auto auto;
     height: 100vh;
-    width: 50%;
+    width: 40%;
     margin: auto auto;
     
 }
 
 /* Default */
-header,aside,footer {
+header,footer {
     grid-column-start: span 3;
+
 }
 
 main {
@@ -33,6 +73,7 @@ main {
 footer{
     text-align: center;
     padding: 50px;
+    color: var(--text);
 }
 
 a {
@@ -40,14 +81,16 @@ a {
     color: var(--link);
 }
 
-p,h1,h2,h3,h4,h5,small,label,span {
-    color: var(--clr-dark);
+p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
+    color: var(--text);
 }
 /* End Default */
 
 /* Custom */
 #card{
-    background-color: whitesmoke;
+    background-color: var(--FGColor);
+    border-radius: 15px;
+
 }
 
 .code-block {
@@ -72,11 +115,16 @@ p,h1,h2,h3,h4,h5,small,label,span {
 
 .artical{
     margin-top: 100px;
+    
 }
 
 .listItem{
     margin-top: 15px;
     margin-bottom: 15px;
+    background-color: var(--FGColor);
+    padding: 10px;
+    border-radius: 15px;
+    
 }
 /* End Custom */
 
