@@ -6,9 +6,10 @@ article p{
 }
 
 article img{
-    height: auto;
-    width: 444px;
+    height: 100%;
+    width: 100%;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 .profile {
