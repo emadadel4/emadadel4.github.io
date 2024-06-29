@@ -64,7 +64,7 @@ body.light {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px auto auto;
     height: 100vh;
-    width: 70%;
+    width: 55%;
     margin: auto auto;
     padding: 20px;
     
@@ -83,11 +83,6 @@ main {
 
 }
 
-.post-content{
-    background-color: var(--FGColor);
-    padding: 20px;
-    border-radius: 0px;
-}
 
 footer{
     text-align: center;
@@ -108,7 +103,7 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 #card{
     background-color: var(--FGColor);
     border-radius: 0px;
-
+    padding: 15px;
 }
 
 .code-block {
@@ -140,10 +135,6 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 .listItem{
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: var(--FGColor);
-    padding: 10px;
-    border-radius: 15px;
-    
 }
 /* End Custom */
 
