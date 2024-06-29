@@ -8,5 +8,5 @@ document.body.className = mode;
 toogle.addEventListener("click", ()=>{
 
     localStorage.setItem("mode", mode === "light" ? "" : "light")
-    body.classList.toggle("light")
+    body.classList.toggle("dark")
 })

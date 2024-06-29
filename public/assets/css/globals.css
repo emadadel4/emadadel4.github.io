@@ -1,11 +1,12 @@
 :root{
-    --bg: #121212;
-    --FGColor: #282828;
-    --text: white;
-    --textSoft: white;
-    --button:#1DB954;
-    --link:#1DB954;
-    --footer:white;
+
+    --bg: white;
+    --FGColor: whitesmoke;
+    --text: black;
+    --textSoft: lightblue;
+    --button: #525FE1;
+    --link: #525FE1;
+    --footer:black;
 }
 
 * {
@@ -46,14 +47,13 @@ body::before {
 }
 
 body.light {
-    --bg: white;
-    --FGColor: whitesmoke;
-    --text: black;
-    --textSoft: lightblue;
-    --button: #525FE1;
-    --link: #525FE1;
-    --footer:black;
-
+    --bg: #121212;
+    --FGColor: #282828;
+    --text: white;
+    --textSoft: white;
+    --button:#1DB954;
+    --link:#1DB954;
+    --footer:white;
 }
 
 
