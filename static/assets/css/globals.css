@@ -86,7 +86,7 @@ main {
 .post-content{
     background-color: var(--FGColor);
     padding: 20px;
-    border-radius: 18px;
+    border-radius: 0px;
 }
 
 footer{
@@ -107,7 +107,7 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 /* Custom */
 #card{
     background-color: var(--FGColor);
-    border-radius: 15px;
+    border-radius: 0px;
 
 }
 
