@@ -1,9 +1,11 @@
 baseURL = 'https://emadadel4.github.io/'
 languageCode = 'en-us'
 title = 'Emad Adel'
+paginate = 3
 
 [Params]
  dateFormat = "Jan 2, 2006"
+
 
 [taxonomies]
  author = "authors"

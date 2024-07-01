@@ -10,6 +10,19 @@
     --footer:black;
 }
 
+
+body.light {
+    
+    --bg: #121212;
+    --FGColor: #282828;
+    --text: white;
+    --textSoft: white;
+    --button:#1DB954;
+    --link:#1DB954;
+    --footer:white;
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -47,17 +60,6 @@ body::before {
     z-index: 1;
 }
 
-body.light {
-    
-    --bg: #121212;
-    --FGColor: #282828;
-    --text: white;
-    --textSoft: white;
-    --button:#1DB954;
-    --link:#1DB954;
-    --footer:white;
-
-}
 
 
 /* Desktop Screen */
@@ -130,15 +132,51 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 }
 
 .artical{
-    margin-top: 100px;
-    background-color: var(--FGColor);
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .listItem{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.pagination{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.page-item{
+    border: 2px solid var(--button);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.page-link{
+    color: var(--textSoft)
+}
+
+.page-item.active{
+    background-color: var(--button);
+    color: black
+}
+
+.page-item.disabled{
+    background-color: gray;
+    cursor: not-allowed;
+    border: 2px solid transparent
+
+}
+
 /* End Custom */
 
 

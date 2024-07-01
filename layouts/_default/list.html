@@ -2,7 +2,7 @@
 
 <div class="artical">
         {{ range .Paginator.Pages }}
-        <div class="listItem" id="card">
+        <div class="listItem">
         <h3>
             <a href={{.Permalink}}>{{.Title}}</a>
         </h3>
@@ -11,9 +11,6 @@
         <a href={{.Permalink}}>{{ .Name}}</a>
         {{end}}</span>
     </div>
-    {{ end }}
+    {{ end }} {{ template "_internal/pagination.html" . }}
 </div>
-
-
-
 {{end}}
