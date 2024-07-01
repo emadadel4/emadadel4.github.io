@@ -1,6 +1,4 @@
 :root{
-
-
     --bg: white;
     --FGColor: whitesmoke;
     --text: black;
@@ -107,24 +105,33 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 #card{
     background-color: var(--FGColor);
     border-radius: 0px;
-    padding: 15px;
+    padding: 12px;
+}
+
+.code-block code {
+    font-size: 20px;
+    font-family: "Cairo", sans-serif;
+  
+
 }
 
 .code-block {
     position: relative;
+    border: 2px solid var(--FGColor);
+    padding: 15px;
 }
 
 .copy-button {
     position: absolute;
-    top: 50px;
-    right: 20px;
+    top: 15px;
+    right: 15px;
     padding: 10px;
     background-color: var(--button);
     color: #fff;
     border: none;
     cursor: pointer;
     align-content: center;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .copy-button:hover {
