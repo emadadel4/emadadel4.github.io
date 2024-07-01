@@ -25,5 +25,6 @@ Choose "PowerShell" or "Terminal" and paste any of the following commands:
 
 ``````Poershlel
 {{< copycode >}}
-irm bit.ly/emadadel | iex
+# This program prints Hello, world!
+print('Hello, world!')
 {{< /copycode >}}

@@ -112,14 +112,15 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 
 .copy-button {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px;
-    background-color: #007bff;
+    top: 50px;
+    right: 20px;
+    padding: 10px;
+    background-color: var(--button);
     color: #fff;
     border: none;
-    border-radius: 3px;
     cursor: pointer;
+    align-content: center;
+    border-radius: 8px;
 }
 
 .copy-button:hover {
