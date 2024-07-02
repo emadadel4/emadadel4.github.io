@@ -48,14 +48,11 @@ nav {
 nav ul li {
   display: inline;
   padding: 0 10px;
+  font-size: 18px;
 }
 
-nav ul li a {
-  font-weight: 500;
-}
-
-nav ul li a:hover {
-  font-weight: 600;
+nav ul li :hover {
+  color: black;
 }
 
 .mobile {
@@ -86,6 +83,7 @@ nav ul li a:hover {
   nav ul li {
       display: block;
       background-color: var(--FGColor);
+      
   }
 
   nav ul li a {
