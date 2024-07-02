@@ -25,7 +25,6 @@
 }
 
 .active {
-  color: var(--link);
   font-weight: 800;
   font-size: 18px;
 }
@@ -78,7 +77,6 @@ nav ul li a:hover {
   nav ul {
       display: none;
       width: 100%;
-      background-color: var(--navbar);
       position: absolute;
       top: 100px;
       height: auto;
@@ -87,16 +85,14 @@ nav ul li a:hover {
 
   nav ul li {
       display: block;
+      background-color: var(--FGColor);
   }
 
   nav ul li a {
-      color: var(--green);
       font-size: 20px;
-
   }
 
   a.mobile {
-      color: var(--a);
       font-size: 20px;
       display: block;
   }
