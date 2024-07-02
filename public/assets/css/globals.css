@@ -81,8 +81,6 @@ header,footer {
 main {
     grid-column-start: span 3;
     margin-bottom: 50px;
-    padding: 20px;
-
 }
 
 
@@ -140,6 +138,10 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 
 .artical{
     border-radius: 5px;
+    justify-content: left;
+    text-align: left;
+    display: flex;
+    margin-top: 100px;
 }
 
 .listItem{
@@ -192,15 +194,14 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 100px auto auto auto;
+        grid-template-rows: auto auto auto auto;
         height: 100vh;
-        width: 100%;
+        width: auto;
         margin: auto auto;
     }
     header,
-    aside,
     main,
     footer {
-        grid-column-start: span 1;
+        grid-column-start: span 3;
     }
 }
