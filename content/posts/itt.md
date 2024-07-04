@@ -17,7 +17,7 @@ author = "Emad Adel"
 
 
 Demo
-{{< figure src="/images/posts/demo.PNG" alt="#">}}
+{{< figure src="/assets/images/posts/demo.PNG" alt="#">}}
 
 ## Usage 🚀
 #### On Windows 10/11
