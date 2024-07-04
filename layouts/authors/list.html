@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 <div class="author-profile">
+    <img src="{{ .Params.avatar }}" height="80" style="border-radius: 50px;" alt="{{ .Params.name }}">
     <h1>{{ .Params.name }}</h1>
     <p>{{ .Params.bio }}</p>
-    <img src="{{ .Params.avatar }}" alt="{{ .Params.name }}">
 </div>
 
 <div class="author-posts">
