@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="author-profile">
+    <h1>{{ .Params.name }}</h1>
+    <p>{{ .Params.bio }}</p>
+    <img src="{{ .Params.avatar }}" alt="{{ .Params.name }}">
+</div>
+
+<div class="author-posts">
+    <h2>Posts by {{ .Params.name }}</h2>
+    <div class="article">
+        {{ range .Paginator.Pages }}
+        <div class="listItem">
+            <h3>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
+            <p>by <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a></p>
+            <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+        </div>
+        {{ end }} 
+        {{ template "_internal/pagination.html" . }}
+    </div>
+</div>
+
+{{ end }}

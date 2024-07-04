@@ -2,12 +2,13 @@
 title = 'ITT (Install and Tweak Tool)'
 date = 2024-06-09T00:02:57+03:00
 draft = false
-description  = "This a test description"
+description = "This a test description"
 image = "/images/demo.png"
 category = "Powershell"
-authors = ["Emad Adel"]
-avatar = "/images/avatar.jpg"
+avatar = "/images/emad-adel.jpg"
+author = "Emad Adel"
 +++
+
 
 - **Automated Installation**: Say goodbye to manual software installations. ITT automates the process, saving you time and effort.
 - **System Tweaks**: Customize your Windows environment with ease. ITT provides scripts to apply system tweaks for enhanced performance and usability.

@@ -1,16 +1,16 @@
-{{define "main"}}
+{{ define "main" }}
 
-<div class="artical">
-        {{ range .Paginator.Pages }}
-        <div class="listItem">
+<div class="article">
+    {{ range .Paginator.Pages }}
+    <div class="listItem">
         <h3>
             <a href={{.Permalink}}>{{.Title}}</a>
         </h3>
-        <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
-        <span>{{ range (.GetTerms "authors")}}
-        <a href={{.Permalink}}>{{ .Name}}</a>
-        {{end}}</span>
+        <p>by <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a></p>
+        <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
     </div>
-    {{ end }} {{ template "_internal/pagination.html" . }}
+    {{ end }} 
+    {{ template "_internal/pagination.html" . }}
 </div>
-{{end}}
+
+{{ end }}

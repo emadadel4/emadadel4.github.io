@@ -6,6 +6,5 @@ paginate = 3
 [Params]
  dateFormat = "Jan 2, 2006"
 
-
 [taxonomies]
  author = "authors"
