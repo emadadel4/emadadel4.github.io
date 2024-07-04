@@ -5,7 +5,7 @@ draft = false
 description = "This a test description"
 image = "/images/demo.png"
 category = "Powershell"
-avatar = "/images/emad-adel.jpg"
+avatar = "/avatars/emadadel.jpg"
 author = "Emad Adel"
 +++
 
