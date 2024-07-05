@@ -106,30 +106,26 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     padding: 12px;
 }
 
-.code-block code {
-    font-size: 20px;
-    font-family: "Cairo", sans-serif;
-  
-
-}
-
-.code-block {
+.code-container {
     position: relative;
-    border: 2px solid var(--FGColor);
-    padding: 15px;
+    padding: 10px;
+    background-color: var(--FGColor);
+    color: var(--text);
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: monospace;
 }
 
 .copy-button {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    padding: 10px;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
     background-color: var(--button);
-    color: #fff;
+    color: white;
     border: none;
     cursor: pointer;
-    align-content: center;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .copy-button:hover {
