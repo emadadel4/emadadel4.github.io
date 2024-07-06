@@ -38,29 +38,7 @@ html, body {
 
 body {
     background: var(--bg);
-    z-index: 0;
-    position: relative; /* Ensure the body is the relative container for the pseudo-element */
 }
-
-body::before {
-    content: "";
-    position: fixed;
-    top: -10px; /* Expand beyond the viewport */
-    left: -10px; /* Expand beyond the viewport */
-    width: calc(100% + 20px); /* Expand beyond the viewport */
-    height: calc(100% + 20px); /* Expand beyond the viewport */
-    background: var(--bg); /* Use the background variable */
-    background-size: cover;
-    filter: blur(0px);
-    z-index: -1; /* Ensure the pseudo-element is behind the content */
-}
-
-.content {
-    position: relative;
-    z-index: 1;
-}
-
-
 
 /* Desktop Screen */
 .container {
