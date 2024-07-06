@@ -1,14 +1,13 @@
 {{define "main"}}
     <main>
         <div class="post-content" style="margin-top: 100px;" id="#">
-                <h2>
-                    {{ .Title}}
-                </h2>
-                <small>
-                    <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
-                    <small>by</small> <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
-
-                </small>
+            <h2>
+                {{ .Title}}
+            </h2>
+            <small>
+                <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
+                <small>by</small> <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
+            </small>
             <article class="article">
                 <p>
                     {{ .Content}}
