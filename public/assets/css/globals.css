@@ -5,6 +5,7 @@
     --textSoft: lightblue;
     --button: #525FE1;
     --link: #525FE1;
+    --hover:#7882ee;
     --footer:black;
 }
 
@@ -17,6 +18,7 @@ body.light {
     --textSoft: white;
     --button:#1DB954;
     --link:#1DB954;
+    --hover:#e9ce77;
     --footer:white;
 
 }
@@ -94,9 +96,14 @@ a,i {
     color: var(--link);
 }
 
+ul li a:hover {
+    color:var(--hover);
+}
+
 p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     color: var(--text);
 }
+
 /* End Default */
 
 /* Custom */
@@ -142,7 +149,8 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
 }
 
 .listItem{
-    margin-top: 15px;
+
+    margin-top: 100px;
     margin-bottom: 15px;
 }
 
