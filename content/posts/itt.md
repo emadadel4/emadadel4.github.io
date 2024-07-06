@@ -16,15 +16,15 @@ author = "Emad Adel"
 - **Soundtracks**: Enjoy listening to the best music from games and movies while downloading your programs.
 
 
-Demo
-{{< figure src="/assets/images/posts/demo.PNG" alt="#">}}
+
+
+{{< image "/assets/images/posts/demo.PNG" "ITT" >}}
+
 
 ## Usage 🚀
 #### On Windows 10/11
 Right-click on the Start menu.
 Choose "PowerShell" or "Terminal" and paste any of the following commands:
-
-
 
 {{< copycode >}}
 irm bit.ly/emadadel | iex
@@ -32,4 +32,5 @@ irm bit.ly/emadadel | iex
 
 
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}
+
 

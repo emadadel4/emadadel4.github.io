@@ -114,6 +114,7 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     border-radius: 5px;
     overflow-x: auto;
     font-family: monospace;
+    font-size: 18px;
 }
 
 .copy-button {
