@@ -5,14 +5,11 @@ article p{
     margin-bottom: 50px;
 }
 
-.prevImage{
-    border: 1px solid var(--FGColor);
-    padding: 10px;
-}
-
 .prevImage img{
-    border: 1px solid var(--FGColor);
-    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .profile {
