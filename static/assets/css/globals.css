@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --bg: white;
     --FGColor: whitesmoke;
@@ -8,7 +14,6 @@
     --hover:#7882ee;
     --footer:black;
 }
-
 
 body.light {
     
@@ -23,18 +28,9 @@ body.light {
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Cairo", sans-serif;
-}
-
 body {
     background: var(--bg);
+    font-family: "Cairo", sans-serif;
 }
 
 /* Desktop Screen */
@@ -78,7 +74,6 @@ ul li a:hover {
 p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     color: var(--text);
 }
-
 /* End Default */
 
 /* Custom */
@@ -86,33 +81,6 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     background-color: var(--FGColor);
     border-radius: 10px;
     padding: 12px;
-}
-
-.code-container {
-    position: relative;
-    padding: 10px;
-    background-color: var(--FGColor);
-    color: var(--text);
-    border-radius: 5px;
-    overflow-x: auto;
-    font-family: monospace;
-    font-size: 18px;
-}
-
-.copy-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 10px;
-    background-color: var(--button);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.copy-button:hover {
-    background-color: #0056b3;
 }
 
 .artical{
@@ -165,9 +133,7 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     border: 2px solid transparent
 
 }
-
 /* End Custom */
-
 
 /* Mobile % Tablet Screen */
 @media (max-width:884px) {
