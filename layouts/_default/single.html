@@ -1,50 +1,37 @@
 {{define "main"}}
+    <main>
+        <div class="post-content" style="margin-top: 100px;" id="#">
+                <h2>
+                    {{ .Title}}
+                </h2>
+                <small>
+                    <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
+                    <small>by</small> <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
 
-            <main>
-                <div class="post-content" style="margin-top: 100px;" id="#">
-                    <section class="post-title">
-                        <h1>
-                            {{ .Title}}
-                        </h1>
-                        <p>
-                            <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
-                        </p>
+                </small>
+            <article class="article">
+                <p>
+                    {{ .Content}}
+                </p>
+            </article>
 
-        
-                    </section>
-                    <article class="article">
-                        <p>
-                            {{ .Content}}
-                        </p>
-                    </article>
-        
+            <section class="profile" id="card">
+                <h2 data-i18n="publisher">Author</h2>
+                <h3>
+                    <a href="https://t.me/emadadel4">Emad Adel</a>
+                </h3>
 
-                        {{/*  <section class=" download" id="card">
-                            <h2 data-i18n="download">Links</h2>
-                            <a href="" target="_blank">
-                                <h3 class="link" data-i18n="mirror">Mirror link</h3>
-                            </a>
-                        </section>  */}}
-
-        
-                    <section class="profile" id="card">
-                        <h2 data-i18n="publisher">Author</h2>
-                        <h3>
-                            <a href="https://t.me/emadadel4">Emad Adel</a>
-                        </h3>
-
-                        <img src="{{ .Params.avatar }}" alt="{{ .Params.name }}">
-                        <p data-i18n="about">
-                        مالك الموقع ومدير المحتوى أحب العاب الفديوه و السينما خاصتا السينما الهادفة والتي تحترم المشاهد و تقدم فن هادف
-                        كذالك العاب الفديوه التي تحترم وقت الاعبين وخاصة نوع الار جي بي التي تهتم بالقصة و فروعها ولا مانع أن العب العاب اونلاين , اعمل في مجال الكمبيوتر منذه 2010 وظيفتي الاساسية سوفت وير/هاردوير بدات في تطوير السوفتوير في 2015 منذه ذالك اقوم بتطوير البرامج والمشاريع التي تزيد شغفي في البرمجة
-                        </p>
-                        <div class="links">
-                            <a href="https://t.me/emadadel4"><i class="fa-brands fa-telegram"></i></a>
-                            <a href="https://github.com/emadadel4"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </section>
+                <img src="{{ .Params.avatar }}" alt="{{ .Params.name }}">
+                <p data-i18n="about">
+                    مالك الموقع ومدير المحتوى أحب العاب الفديوه و السينما خاصتا السينما الهادفة والتي تحترم المشاهد و تقدم فن هادف
+                    كذالك العاب الفديوه التي تحترم وقت الاعبين وخاصة نوع الار جي بي التي تهتم بالقصة و فروعها ولا مانع أن العب العاب اونلاين , اعمل في مجال الكمبيوتر منذه 2010 وظيفتي الاساسية سوفت وير/هاردوير بدات في تطوير السوفتوير في 2015 منذه ذالك اقوم بتطوير البرامج والمشاريع التي تزيد شغفي في البرمجة
+                </p>
+                <div class="links">
+                    <a href="https://t.me/emadadel4"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/emadadel4"><i class="fa-brands fa-github"></i></a>
                 </div>
-            </main>
-
+            </section>
+        </div>
+    </main>
 {{end}}
 
