@@ -9,23 +9,21 @@
     </div>
     <ul>
         <li>
+            <a href="/">{{ i18n "home" }}</a>
+        </li>
+        <li>
             <a href="/authors/emad-adel/">{{ i18n "about" }}</a>
         </li>
         <li>
-            <a href="/">{{ i18n "home" }}</a>
-            
+            {{ range $.Site.Home.AllTranslations }}
+            <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
         </li>
         <li><a href="https://github.com/emadadel4" target="blank" ><i class="fa-brands fa-github"></i></a>
         <li class="theme-toggle">
             <i class="fa-solid fa-circle-half-stroke"></i>
         </li>
-        
-        <li>
-                {{ range $.Site.Home.AllTranslations }}
-                <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
-                {{ end }}
-        </li>
-
+  
     </ul>
     <a href="#" class="mobile">&#9776;</a>
 </nav>
