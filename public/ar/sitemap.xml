@@ -28,18 +28,6 @@
                 href="http://localhost:1313/ar/itt/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/ar/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/ar/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ar/authors/</loc>
     <xhtml:link
                 rel="alternate"
@@ -50,6 +38,18 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://localhost:1313/ar/authors/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/en/"
                 />
   </url><url>
     <loc>http://localhost:1313/ar/true/</loc>

@@ -1,5 +1,5 @@
 baseURL = 'https://emadadel4.github.io/'
-languageCode = 'ar'
+languageCode = 'en'
 title = 'Emad Adel'
 paginate = 3
 
@@ -10,11 +10,11 @@ paginate = 3
  author = "authors"
 
 
-defaultContentLanguage = 'ar'
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
 [languages.en]
-  contentDir = 'content/en'
+  contentDir = 'content/posts/en'
   disabled = false
   languageCode = 'en-US'
   languageDirection = 'ltr'
@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.ar]
-    contentDir = 'content/ar'
+    contentDir = 'content/posts/ar'
     languageCode = 'ar'
     languageDirection = 'rtl'
     languageName = 'عربي'
