@@ -67,11 +67,6 @@ a,i {
     color: var(--link);
 }
 
-nav ul li a.active {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 ul li a:hover {
     color:var(--hover);
 }
@@ -138,7 +133,6 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     border: 2px solid transparent
 
 }
-
 /* End Custom */
 
 /* Mobile % Tablet Screen */

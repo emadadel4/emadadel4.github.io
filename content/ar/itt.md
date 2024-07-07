@@ -1,12 +1,12 @@
 +++
-title = '(تثبيت البرامج و تحسين النظام ) ITT أداة'
+title = 'أداة ITT (تثبيت البرامج و تحسين النظام)'
 date = 2024-06-09T00:02:57+03:00
 draft = false
 description = "هذا وصف اختباري"
 image = "/assets/images/demo.png"
 category = "باورشيل"
 avatar = "/avatars/emadadel.jpg"
-author = "عماد عادل"
+author = "Emad Adel"
 +++
 
 - **التثبيت التلقائي**: ودّع التثبيت اليدوي للبرامج. تقوم ITT بتأمين العملية تلقائيًا، مما يوفر لك الوقت والجهد.
