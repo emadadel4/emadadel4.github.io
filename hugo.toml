@@ -7,16 +7,16 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
 [languages.en]
-  contentDir = 'content/posts/en'
-  authorsDir = "content/authors/en"
+  contentDir = 'content/en'
+  authorsDir = "content/en"
   languageCode = 'en-US'
   languageDirection = 'ltr'
   languageName = 'English'
   weight = 2
 
 [languages.ar]
-  contentDir = 'content/posts/ar'
-  authorsDir = "content/authors/ar"
+  contentDir = 'content/ar'
+  authorsDir = "content/ar"
 
   languageCode = 'ar'
   languageDirection = 'rtl'
