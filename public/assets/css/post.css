@@ -26,6 +26,7 @@ article p{
     overflow-x: auto;
     font-family: monospace;
     font-size: 18px;
+    margin-bottom: 25px;
 }
 
 .copy-button {

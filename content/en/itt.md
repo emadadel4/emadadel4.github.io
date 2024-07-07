@@ -30,6 +30,10 @@ Choose "PowerShell" or "Terminal" and paste any of the following commands:
 irm bit.ly/emadadel | iex
 {{< /copycode >}}
 
+## Watch the Demo
+
+[![Watch the video](https://img.youtube.com/vi/QTv88lchoo0/hqdefault.jpg)](https://www.youtube.com/watch?v=QTv88lchoo0)
+
 
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}
 

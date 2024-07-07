@@ -21,9 +21,17 @@ author = "Emad Adel"
 #### متوفر فقط على نظام ويندوز 10 و 11 
 انقر بزر الماوس الأيمن فوق قائمة ابدأ. اختر "PowerShell" أو "Terminal" والصق الأمر التالي:
 
+
 {{< copycode >}}
 irm bit.ly/emadadel | iex
 {{< /copycode >}}
+
+
+## شاهد تجربة الاداة
+  
+[![Watch the video](https://img.youtube.com/vi/QTv88lchoo0/hqdefault.jpg)](https://www.youtube.com/watch?v=QTv88lchoo0)
+
+
 
 
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}

@@ -1,5 +1,5 @@
 ---
 name: "Emad Adel"
-bio: "هههههههههههههههه"
+bio: "#"
 avatar: "/avatars/emadadel.jpg"
 ---
