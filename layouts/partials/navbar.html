@@ -16,9 +16,16 @@
         </li>
         
         <li>
-            {{ range $.Site.Home.AllTranslations }}
-            <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
-            {{ end }}
+            <select onchange="window.location.href=this.value">
+                {{ $currentLang := .Site.Language.Lang }}
+                {{ range $.Site.Home.AllTranslations }}
+                    {{ if eq .Language.Lang $currentLang }}
+                        <option value="{{ .RelPermalink }}" selected>{{ .Language.LanguageName }}</option>
+                    {{ else }}
+                        <option value="{{ .RelPermalink }}">{{ .Language.LanguageName }}</option>
+                    {{ end }}
+                {{ end }}
+            </select>
         </li>
         <li><a href="https://github.com/emadadel4" target="blank" ><i class="fa-brands fa-github"></i></a>
         <li class="theme-toggle">
