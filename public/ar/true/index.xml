@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>True on Emad Adel</title>
+    <link>http://localhost:1313/ar/true/</link>
+    <description>Recent content in True on Emad Adel</description>
+    <generator>Hugo</generator>
+    <language>ar</language>
+    <atom:link href="http://localhost:1313/ar/true/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
