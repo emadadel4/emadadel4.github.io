@@ -14,7 +14,7 @@
             <h3>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
             </h3>
-            <p>by <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a></p>
+            <p>by <a href="{{ "/authors/" | relLangURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a></p>
             <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
         </div>
         {{ end }} 
