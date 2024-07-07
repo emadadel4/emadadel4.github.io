@@ -56,7 +56,6 @@ main {
     margin-bottom: 50px;
 }
 
-
 footer{
     text-align: center;
     padding: 50px;
@@ -74,6 +73,15 @@ ul li a:hover {
 p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     color: var(--text);
 }
+
+select{
+    background-color: var(--FGColor);
+    border: transparent;
+    color: var(--text);
+    text-align: center;
+    padding: 5px;
+}
+
 /* End Default */
 
 /* Custom */
