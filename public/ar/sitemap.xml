@@ -7,7 +7,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -20,7 +20,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/itt/"
+                href="http://localhost:1313/en/itt/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -32,36 +32,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/authors/"
+                href="http://localhost:1313/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
                 href="http://localhost:1313/ar/authors/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ar/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/en/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ar/true/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/true/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/true/"
                 />
   </url>
 </urlset>

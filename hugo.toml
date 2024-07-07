@@ -3,28 +3,27 @@ languageCode = 'en'
 title = 'Emad Adel'
 paginate = 3
 
-[Params]
- dateFormat = "Jan 2, 2006"
-
-[taxonomies]
- author = "authors"
-
-
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
 [languages.en]
   contentDir = 'content/posts/en'
-  disabled = false
+  authorsDir = 'content/authors/en/'
   languageCode = 'en-US'
   languageDirection = 'ltr'
   languageName = 'English'
   weight = 2
 
-[languages]
-  [languages.ar]
-    contentDir = 'content/posts/ar'
-    languageCode = 'ar'
-    languageDirection = 'rtl'
-    languageName = 'عربي'
-    weight = 1
+[languages.ar]
+  contentDir = 'content/posts/ar'
+  authorsDir = 'content/authors/ar/'
+  languageCode = 'ar'
+  languageDirection = 'rtl'
+  languageName = 'عربي'
+  weight = 1
+
+[Params]
+ dateFormat = "Jan 2, 2006"
+
+[taxonomies]
+ author = "authors"
