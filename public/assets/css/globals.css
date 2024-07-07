@@ -22,7 +22,7 @@ body.light {
     --text: white;
     --textSoft: white;
     --button:#1DB954;
-    --link:#1DB954;
+    --link:#00f054;
     --hover:#e9ce77;
     --footer:white;
 
@@ -82,6 +82,9 @@ select{
     padding: 5px;
 }
 
+select:hover {
+    color: var(--text);
+}
 /* End Default */
 
 /* Custom */
