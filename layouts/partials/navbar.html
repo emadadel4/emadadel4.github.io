@@ -12,19 +12,21 @@
             <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
         </li>
         <li>
-            <a href="{{ "/authors/emadadel/" | relLangURL }}">{{ i18n "about" }}</a>
+            <a href="{{ "/authors/emadadel/" | relLangURL }}">Emad Adel</a>
         </li>
-        
         <li>
             {{ range $.Site.Home.AllTranslations }}
             <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
             {{ end }}
         </li>
-        <li><a href="https://github.com/emadadel4" target="blank" ><i class="fa-brands fa-github"></i></a>
+        <li>
+            <!-- GitHub link -->
+            <a href="https://github.com/emadadel4" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </li>
         <li class="theme-toggle">
+            <!-- Theme toggle icon -->
             <i class="fa-solid fa-circle-half-stroke"></i>
         </li>
-  
     </ul>
     <a href="#" class="mobile">&#9776;</a>
 </nav>
