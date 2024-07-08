@@ -32,6 +32,8 @@ irm bit.ly/emadadel | iex
 [![Watch the video](https://img.youtube.com/vi/QTv88lchoo0/hqdefault.jpg)](https://www.youtube.com/watch?v=QTv88lchoo0)
 
 
+## الدعم المادي
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/emadadel)
 
 
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}
