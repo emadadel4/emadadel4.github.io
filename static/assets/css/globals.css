@@ -154,11 +154,11 @@ select:hover {
         grid-template-rows: 100px auto auto auto;
         height: 100vh;
         width: auto;
-        margin: auto auto;
+        margin: 0 auto;
     }
     header,
     main,
     footer {
-        grid-column-start: span 1;
+        grid-column-start: span 3;
     }
 }

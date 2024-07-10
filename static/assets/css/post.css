@@ -17,6 +17,13 @@ article p{
     width: 50%;
 }
 
+.article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 .code-container {
     position: relative;
     padding: 10px;
