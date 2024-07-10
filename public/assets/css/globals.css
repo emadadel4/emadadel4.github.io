@@ -151,7 +151,7 @@ select:hover {
 
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: 100px auto auto auto;
         height: 100vh;
         width: auto;
         margin: auto auto;
@@ -159,6 +159,6 @@ select:hover {
     header,
     main,
     footer {
-        grid-column-start: span 3;
+        grid-column-start: span 1;
     }
 }
