@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/content/</loc>
+    <lastmod>2024-07-19T06:23:10+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-09T00:02:57+03:00</lastmod>
+    <lastmod>2024-07-19T06:23:10+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -14,6 +17,12 @@
                 hreflang="en-US"
                 href="http://localhost:1313/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/content/%D8%B4%D9%82/my-first-post/</loc>
+    <lastmod>2024-07-19T06:23:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/content/posts/my-first-post/</loc>
+    <lastmod>2024-07-19T06:22:44+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/itt/</loc>
     <lastmod>2024-06-09T00:02:57+03:00</lastmod>
