@@ -12,7 +12,7 @@ author = "Emad Adel"
 {{< image "https://raw.githubusercontent.com/emadadel4/Soura/main/assets/images/demo.png" "Preview" >}}
 
 
-## Listen Now 🚀
+## Listen Now 🔊
 https://emadadel4.github.io/Soura/
 
 
