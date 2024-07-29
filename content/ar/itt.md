@@ -2,7 +2,7 @@
 title = 'أداة ITT (تثبيت البرامج و تحسين النظام)'
 date = 2024-06-09T00:02:57+03:00
 draft = false
-description = "هذا وصف اختباري"
+description = "ITT (Install Tweaks Tool) included all useful Windows 10/11 Software and Windows Tweaks & Remove Bloatwares & Windows activation"
 image = "/assets/images/demo.png"
 category = "باورشيل"
 avatar = "/avatars/emadadel.jpg"
