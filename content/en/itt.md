@@ -1,5 +1,5 @@
 +++
-title = 'ITT (Install and Tweak Tool)'
+title = 'ITT (Install and Tweaks Tool)'
 date = 2024-06-09T00:02:57+03:00
 draft = false
 description = "This a test description"
