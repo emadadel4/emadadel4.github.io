@@ -32,14 +32,10 @@ irm bit.ly/emadadel | iex
 
 ## Watch the Demo
 
-  [![Watch the video](https://img.youtube.com/vi/QmO82OTsU5c/hqdefault.jpg)](https://www.youtube.com/watch?v=QmO82OTsU5c)
-
-
-
-## Support
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/emadadel)
+[![Watch the video](https://img.youtube.com/vi/QmO82OTsU5c/hqdefault.jpg)](https://www.youtube.com/watch?v=QmO82OTsU5c)
 
 
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}
 
+{{< donation "https://cdn.buymeacoffee.com/buttons/default-orange.png" "AA" "https://www.buymeacoffee.com/emadadel" >}}
 
