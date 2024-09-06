@@ -41,7 +41,7 @@ body {
     height: 100vh;
     width: 50%;
     margin: auto auto;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -89,8 +89,7 @@ select:hover {
 
 /* Custom */
 #card{
-    background-color: var(--FGColor);
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 12px;
 }
 

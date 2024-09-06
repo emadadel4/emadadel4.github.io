@@ -22,6 +22,7 @@ article p{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    
 }
 
 .code-container {
@@ -52,6 +53,10 @@ article p{
     background-color: #0056b3;
 }
 
+.Video{
+    text-align: center;
+}
+
 .profile {
     padding: 20;
 }
@@ -67,4 +72,12 @@ article p{
     margin-bottom: 10px;
     padding: 25px;
 }
+
+
+.post-content{
+    background-color:var(--FGColor);
+    border-radius: 15px;
+    padding: 20px;
+}
+
 /* End Styling Base Post Page */
