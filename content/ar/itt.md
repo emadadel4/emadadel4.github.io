@@ -27,15 +27,8 @@ irm bit.ly/emadadel | iex
 {{< /copycode >}}
 
 
-## شاهد تجربة الاداة
-  
-  [![Watch the video](https://img.youtube.com/vi/QmO82OTsU5c/hqdefault.jpg)](https://www.youtube.com/watch?v=QmO82OTsU5c)
-
-
-## الدعم المادي
-[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/emadadel)
-
+{{< video "https://img.youtube.com/vi/QmO82OTsU5c/hqdefault.jpg" "https://youtu.be/QmO82OTsU5c" "Watch Demo" >}}
 
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}
 
-
+{{< donation "https://www.buymeacoffee.com/emadadel" "https://cdn.buymeacoffee.com/buttons/default-orange.png" >}}

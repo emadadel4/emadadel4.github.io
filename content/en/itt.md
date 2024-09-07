@@ -15,11 +15,7 @@ author = "Emad Adel"
 - **User-Friendly**: Easy-to-use and clear documentation  to add a new app or tweaks as you like, you can create a new method to download apps. Be creative. <a href="#--how-to-add-a-new-apptweakostquote">How to Add a New App</a>
 - **Soundtracks**: Enjoy listening to the best music from games and movies while downloading your programs.
 
-
-
-
 {{< image "https://raw.githubusercontent.com/emadadel4/ITT/main/Resources/Images/demo.PNG" "ITT" >}}
-
 
 ## Usage 🚀
 #### On Windows 10/11
@@ -30,11 +26,8 @@ Choose "PowerShell" or "Terminal" and paste any of the following commands:
 irm bit.ly/emadadel | iex
 {{< /copycode >}}
 
-
-
 {{< video "https://img.youtube.com/vi/QmO82OTsU5c/hqdefault.jpg" "https://youtu.be/QmO82OTsU5c" "Watch Demo" >}}
 
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}
 
-{{< donation "https://cdn.buymeacoffee.com/buttons/default-orange.png" "AA" "https://www.buymeacoffee.com/emadadel" >}}
-
+{{< donation "https://www.buymeacoffee.com/emadadel" "https://cdn.buymeacoffee.com/buttons/default-orange.png" >}}
