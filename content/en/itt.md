@@ -3,7 +3,7 @@ title = 'ITT (Install and Tweaks Tool)'
 date = 2024-06-09T00:02:57+03:00
 draft = false
 description = "ITT (Install Tweaks Tool) included all useful Windows 10/11 Software and Windows Tweaks & Remove Bloatwares & Windows activation"
-image = "/assets/images/demo.png"
+image = "https://raw.githubusercontent.com/emadadel4/ITT/main/Resources/Images/demo.PNG"
 category = "Powershell"
 avatar = "/avatars/emadadel.jpg"
 author = "Emad Adel"
@@ -18,7 +18,7 @@ author = "Emad Adel"
 
 
 
-{{< image "/assets/images/posts/demo.PNG" "ITT" >}}
+{{< image "https://raw.githubusercontent.com/emadadel4/ITT/main/Resources/Images/demo.PNG" "ITT" >}}
 
 
 ## Usage 🚀
