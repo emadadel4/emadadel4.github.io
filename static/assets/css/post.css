@@ -1,87 +1,43 @@
-/* Base Post Page */
-
-article p{
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-
-.prevImage{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.prevImage img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-.article p img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* Desktop Screen */
+.post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
     width: 100%;
-    
-}
-
-.Video img{
-    width: 50%;
-}
-
-.code-container {
-    position: relative;
+    margin: auto;
     padding: 10px;
-    border: 1px solid var(--FGColor);
+}
+
+article {
+    grid-column: 1 / span 2;
+    margin-left: 0; 
+    width: 90%; 
+}
+
+aside{
+    grid-column-start: span 1;
+    background-color: var(--FGColor);
     color: var(--text);
-    border-radius: 5px;
-    overflow-x: auto;
-    font-family: monospace;
-    font-size: 18px;
-    margin-bottom: 25px;
+    padding: 5px;
+    position: sticky; 
+    top: 50px; 
+    align-self: start; 
 }
 
-.copy-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 10px;
-    background-color: var(--button);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.copy-button:hover {
-    background-color: #0056b3;
-}
-
-.Video{
+footer {
     text-align: center;
 }
 
 .profile {
     padding: 20;
+    text-align: left;
+
 }
 
 .profile img {
     border-radius: 100%;
     width: 90px;
     height: 90px;
+    text-align: left;
 }
-
-.download {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 25px;
-}
-
-
-.post-content{
-    background-color:var(--FGColor);
-    border-radius: 15px;
-    padding: 20px;
-}
-
-/* End Styling Base Post Page */
