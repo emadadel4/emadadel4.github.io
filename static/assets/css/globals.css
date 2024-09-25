@@ -46,6 +46,9 @@ body {
 /* Default */
 header {
     grid-column-start: span 4;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
 main {
@@ -178,7 +181,6 @@ select:hover {
         height: 100vh;
         width: 100%;
         margin: 0 auto;
-        padding: 20px;
     }
     header,
     main,
@@ -191,5 +193,14 @@ select:hover {
         width: 50%;
         height: 100%;
 
+    }
+
+    article {
+        margin: 0 8px;
+    }
+
+    aside{
+        text-align: center;
+        padding: 25px;
     }
 }
