@@ -9,7 +9,7 @@ avatar = "/avatars/emadadel.jpg"
 author = "Emad Adel"
 +++
 
-{{< image "https://raw.githubusercontent.com/emadadel4/Soura/main/assets/images/demo.png" "Preview" >}}
+{{< image "https://raw.githubusercontent.com/emadadel4/Soura/refs/heads/main/assets/images/demo.JPG" "Preview" >}}
 
 
 ## Listen Now 🔊
