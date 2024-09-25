@@ -181,6 +181,7 @@ select:hover {
         height: 100vh;
         width: 100%;
         margin: 0 auto;
+        padding: 25px;
     }
     header,
     main,
@@ -201,6 +202,5 @@ select:hover {
 
     aside{
         text-align: center;
-        padding: 25px;
     }
 }
