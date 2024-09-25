@@ -16,7 +16,7 @@
         </li>
         
         <li>
-            <select onchange="window.location.href=this.value">
+            <select onchange="window.location.href=this.value" style="transition: background-color 0.3s, color 0.3s;">
                 {{ $currentLang := .Site.Language.Lang }}
                 {{ range $.Site.Home.AllTranslations }}
                     {{ if eq .Language.Lang $currentLang }}
@@ -27,9 +27,16 @@
                 {{ end }}
             </select>
         </li>
-        <li><a href="https://github.com/emadadel4" target="blank" ><i class="fa-brands fa-github"></i></a>
+
+        <li>
+            <a href="https://github.com/emadadel4" target="_blank">
+                <i class="fa-brands fa-github" id="github"  style="transition: color 0.3s;"></i>
+            </a>
+        </li>
+        
+
         <li class="theme-toggle">
-            <i class="fa-solid fa-circle-half-stroke"></i>
+            <i class="fa-solid fa-circle-half-stroke" style="transition: color 0.3s;"></i>
         </li>
   
     </ul>

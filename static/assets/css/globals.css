@@ -17,13 +17,13 @@
 
 body.light {
     
-    --bg: #121212;
-    --FGColor: #282828;
+    --bg: #2b2d31;
+    --FGColor: #3c3f44;
     --text: white;
     --textSoft: white;
-    --button:#1DB954;
-    --link:#00f054;
-    --hover:#e9ce77;
+    --button:gold;
+    --link:#098fd4;
+    --hover:gold;
     --footer:white;
 
 }
@@ -36,7 +36,7 @@ body {
 /* Desktop Screen */
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px auto auto;
     height: 100vh;
     width: 60%;
@@ -44,28 +44,51 @@ body {
 }
 
 /* Default */
-header,footer {
-    grid-column-start: span 3;
-
+header {
+    grid-column-start: span 4;
 }
 
 main {
+    margin-top: 50px;
     grid-column-start: span 3;
-    margin-bottom: 50px;
+}
+
+aside{
+    margin-top: 50px;
+    grid-column-start: span 1;
+    text-align: center;
+    grid-column-start: span 1;
+    color: var(--text);
+    padding: 5px;
+    position: sticky; 
+    top: 50px; 
+    align-self: start; 
 }
 
 footer{
+    grid-column-start: span 4;
     text-align: center;
-    padding: 50px;
+    margin-top: 25px;
+    padding: 20px;
 }
 
 a,i {
     text-decoration: none;
-    color: var(--link);
+    color: var(--text);
 }
 
 ul li a:hover {
     color:var(--hover);
+
+}
+.fa-solid.fa-circle-half-stroke:hover {
+    color:var(--hover);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#github:hover{
+    color:var(--hover);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
@@ -81,8 +104,12 @@ select{
 }
 
 select:hover {
-    color: var(--text);
+    background-color: #f0f0f0; 
+    color: #333; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
+
 /* End Default */
 
 /* Custom */
@@ -100,8 +127,6 @@ select:hover {
 }
 
 .listItem{
-
-    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -117,7 +142,7 @@ select:hover {
 }
 
 .page-item{
-    border: 2px solid var(--button);
+    border: 0px solid var(--button);
     width: 30px;
     height: 30px;
     display: flex;
@@ -127,16 +152,16 @@ select:hover {
 }
 
 .page-link{
-    color: var(--textSoft)
+    color: var(--text)
 }
 
 .page-item.active{
-    background-color: var(--button);
+    background-color: var(--FGColor);
     color: black
 }
 
 .page-item.disabled{
-    background-color: gray;
+    background-color: var(--FGColor);
     cursor: not-allowed;
     border: 2px solid transparent
 
@@ -150,12 +175,14 @@ select:hover {
         grid-template-columns: 1fr;
         grid-template-rows: 100px auto auto auto;
         height: 100vh;
-        width: auto;
+        width: 100%;
         margin: 0 auto;
+        padding: 25px;
     }
     header,
     main,
+    aside,
     footer {
-        grid-column-start: span 3;
+        grid-column-start: span 4;
     }
 }

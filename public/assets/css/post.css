@@ -1,43 +1,5 @@
-/* Desktop Screen */
-.post {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    width: 100%;
-    margin: auto;
-    padding: 10px;
-}
 
 article {
-    grid-column: 1 / span 2;
-    margin-left: 0; 
-    width: 90%; 
-}
-
-aside{
-    grid-column-start: span 1;
-    background-color: var(--FGColor);
-    color: var(--text);
-    padding: 5px;
-    position: sticky; 
-    top: 50px; 
-    align-self: start; 
-}
-
-footer {
-    text-align: center;
-}
-
-.profile {
-    padding: 20;
-    text-align: left;
-
-}
-
-.profile img {
-    border-radius: 100%;
-    width: 90px;
-    height: 90px;
-    text-align: left;
+    width: 80%;
+    text-wrap: wrap;
 }

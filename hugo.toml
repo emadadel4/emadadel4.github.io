@@ -1,7 +1,7 @@
 baseURL = 'https://emadadel4.github.io/'
 languageCode = 'en'
 title = 'Emad Adel'
-paginate = 2
+paginate = 7
 
 [taxonomies]
   author = "authors"

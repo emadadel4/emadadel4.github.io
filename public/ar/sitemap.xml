@@ -17,6 +17,16 @@
   </url><url>
     <loc>http://localhost:1313/ar/soura/</loc>
     <lastmod>2024-07-19T06:23:17+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/soura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/soura/"
+                />
   </url><url>
     <loc>http://localhost:1313/ar/itt/</loc>
     <lastmod>2024-06-09T00:02:57+03:00</lastmod>
@@ -29,6 +39,18 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://localhost:1313/ar/itt/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/authors/emadadel/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/authors/emadadel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/authors/emadadel/"
                 />
   </url><url>
     <loc>http://localhost:1313/ar/authors/</loc>
