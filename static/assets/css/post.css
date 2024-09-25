@@ -1,5 +1,19 @@
 
 article {
-    width: 80%;
+    width: 95%;
     text-wrap: wrap;
+    background-color: var(--FGColor);
+    margin-bottom: 25px;
+    padding: 25px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
+
+}
+
+#card{
+    padding: 15px;
+    background-color: var(--FGColor);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 50px rgba(17, 17, 17, 0.1);
+
 }
