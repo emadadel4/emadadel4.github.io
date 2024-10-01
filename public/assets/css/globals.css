@@ -32,6 +32,8 @@ body.light {
 body {
     background: var(--bg);
     font-family: "Cairo", sans-serif;
+    padding: 30px;
+
 }
 
 /* Desktop Screen */
@@ -41,24 +43,22 @@ body {
     grid-template-rows: 100px auto auto;
     height: 100vh;
     width: 60%;
-    margin: auto auto;
+    margin: auto auto;    
 }
 
 /* Default */
 header {
     grid-column-start: span 4;
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-top: 25px;
-}
 
+}
+    
 main {
-    margin-top: 50px;
     grid-column-start: span 3;
+    margin-top: 100px;
 }
 
 aside{
-    margin-top: 50px;
+    margin-top: 100px;
     grid-column-start: span 1;
     text-align: center;
     grid-column-start: span 1;
@@ -73,8 +73,7 @@ aside{
 footer{
     grid-column-start: span 4;
     text-align: center;
-    margin-top: 25px;
-    padding: 20px;
+    padding: 30px;
 }
 
 a,i {
@@ -125,27 +124,17 @@ select:hover {
     padding: 15px;
 }
 
-.artical{
-    border-radius: 5px;
-    justify-content: left;
-    text-align: left;
-    display: flex;
-    margin-top: 100px;
-}
-
 .listItem{
     margin-bottom: 25px;
+    width: 90%;
 }
 
 .pagination{
     display: flex;
     gap: 10px;
     list-style: none;
-    padding: 0;
-    margin: 0;
     margin-top: 80px;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .page-item{
@@ -210,5 +199,13 @@ iframe {
 
     article {
         margin: 0 9px;
+    }
+
+    .listItem{
+        width: 100%;
+    }
+
+    .pagination{
+        justify-content: center;
     }
 }    

@@ -1,14 +1,10 @@
 {{ define "main" }}
 
-<div class="article">
 
-    <h1 style="margin-bottom: 25px;">
-        {{ i18n "posts" }}
-        <hr width="300px">
-    </h1>
+<div class="posts">
 
     {{ range .Paginator.Pages }}
-    <div class="listItem">
+    <div class="listItem" id="card">
         <div class="title">
             <a href={{.Permalink}}>{{.Title}}</a>
         </div>
