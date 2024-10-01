@@ -9,11 +9,3 @@ article {
 
 }
 
-#card{
-    padding: 15px;
-    background-color: var(--FGColor);
-    margin-top: 25px;
-    margin-bottom: 25px;
-    box-shadow: 1px 1px 50px rgba(17, 17, 17, 0.1);
-
-}
