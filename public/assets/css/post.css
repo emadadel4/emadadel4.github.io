@@ -9,3 +9,22 @@ article {
 
 }
 
+.prevImage img{
+    width: 80%;
+    height: 100%;
+
+}
+
+.Video iframe {
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .Video iframe {
+        width: 100%; 
+        height: auto;
+    }
+}

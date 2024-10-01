@@ -27,5 +27,8 @@ irm bit.ly/emadadel | iex
 {{< /copycode >}}
 
 
+{{< video "https://img.youtube.com/vi/QmO82OTsU5c/hqdefault.jpg" "https://www.youtube.com/embed/QmO82OTsU5c" "Watch Demo" >}}
+
 {{< download "https://github.com/emadadel4/ITT" "Source code" >}}
 
+{{< donation "https://www.buymeacoffee.com/emadadel" "https://cdn.buymeacoffee.com/buttons/default-orange.png" >}}
