@@ -1,0 +1,24 @@
+baseURL = 'https://emadadel4.github.io/'
+languageCode = 'en'
+title = 'Emad Adel'
+paginate = 7
+
+[languages.en]
+  contentDir = 'content/'
+  languageCode = 'en-US'
+  languageDirection = 'ltr'
+  languageName = 'English'
+  weight = 1
+
+[languages.ar]
+  contentDir = 'content/'
+  languageCode = 'ar'
+  languageDirection = 'rtl'
+  languageName = 'عربي'
+  weight = 2
+
+
+defaultContentLanguage = "en"
+
+[Params]
+ dateFormat = "Jan 2, 2006"

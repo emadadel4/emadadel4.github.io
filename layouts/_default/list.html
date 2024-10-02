@@ -1,18 +1,25 @@
 {{ define "main" }}
 
-
 <div class="posts">
-
     {{ range .Paginator.Pages }}
-    <div class="listItem" id="card">
-        <div class="title">
-            <a href={{.Permalink}}>{{.Title}}</a>
-        </div>
-        <small>{{ i18n "by" }}</small> <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
-        <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
-    </div>
+        {{ if eq .Params.lang $.Site.Language.Lang }} <!-- Check if the post language matches the current site language -->
+            {{ if eq .Type "post" }} 
+                <div class="listItem" id="card">
+                    <div class="title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </div>
+                    <small>{{ i18n "by" }}</small>
+                    <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
+                    <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+                </div>
+            {{ end }} <!-- End of the type check -->
+        {{ end }} <!-- End of the language check -->
     {{ end }} 
+
     {{ template "_internal/pagination.html" . }}
 </div>
+
+
+
 
 {{ end }}

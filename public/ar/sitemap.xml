@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ar/</loc>
-    <lastmod>2024-07-19T06:23:17+03:00</lastmod>
+    <lastmod>2024-06-09T00:02:57+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -15,54 +15,66 @@
                 href="http://localhost:1313/ar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/soura/</loc>
-    <lastmod>2024-07-19T06:23:17+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/soura/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/soura/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ar/itt/</loc>
+    <loc>http://localhost:1313/ar/posts/</loc>
     <lastmod>2024-06-09T00:02:57+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/itt/"
+                href="http://localhost:1313/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/itt/"
+                href="http://localhost:1313/ar/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/authors/emadadel/</loc>
+    <loc>http://localhost:1313/ar/posts/itt/</loc>
+    <lastmod>2024-06-09T00:02:57+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/authors/emadadel/"
+                href="http://localhost:1313/posts/itt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/authors/emadadel/"
+                href="http://localhost:1313/ar/posts/itt/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/authors/</loc>
+    <loc>http://localhost:1313/ar/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/authors/"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/authors/"
+                href="http://localhost:1313/ar/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ar/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/tags/"
                 />
   </url>
 </urlset>
