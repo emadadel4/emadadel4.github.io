@@ -15,11 +15,24 @@ article {
 
 }
 
+h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .Video iframe {
     height: 500px;
     width: 100%;
     padding: 20px;
 
+}
+
+.download{
+    margin-top: 50px;
+}
+
+.code-contnet{
+    font-size: 20px;
 }
 
 @media (max-width: 768px) {
