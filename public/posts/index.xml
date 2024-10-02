@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Emad Adel</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 09 Jun 2024 00:02:57 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 06:23:17 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Listen every day a chapter of the Holy Quran</title>
+      <link>http://localhost:1313/posts/soura/</link>
+      <pubDate>Fri, 19 Jul 2024 06:23:17 +0300</pubDate>
+      <guid>http://localhost:1313/posts/soura/</guid>
+      <description>&lt;div class=&#34;prevImage&#34; style=&#34;margin-top: 25px;&#34;&gt;&#xD;&#xA;    &lt;h1&gt;Preview&lt;/h1&gt;&#xD;&#xA;    &lt;img src=&#34;https://raw.githubusercontent.com/emadadel4/Soura/main/assets/images/demo.png&#34; alt=&#34;Preview&#34; height=&#34;355&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;listen-now-&#34;&gt;Listen Now 🔊&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://emadadel4.github.io/Soura/&#34;&gt;https://emadadel4.github.io/Soura/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;section class=&#34;download&#34; id=&#34;card&#34;&gt;&#xD;&#xA;    &lt;h1&gt;Links&lt;/h1&gt;&#xD;&#xA;    &lt;ul&gt;&#xD;&#xA;        &lt;li&gt;&lt;a href=&#34;https://github.com/emadadel4/soura&#34;&gt;Source code&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;    &lt;/ul&gt;&#xD;&#xA;&lt;/section&gt;</description>
+    </item>
     <item>
       <title>ITT (Install and Tweaks Tool)</title>
       <link>http://localhost:1313/posts/itt/</link>

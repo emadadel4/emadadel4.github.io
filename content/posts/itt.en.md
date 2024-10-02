@@ -9,7 +9,6 @@ avatar = "/avatars/emadadel.jpg"
 author = "Emad Adel"
 type   = "post"
 lang   = "en"
-
 +++
 
 

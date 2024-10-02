@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-09T00:02:57+03:00</lastmod>
+    <lastmod>2024-07-19T06:23:17+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/soura/</loc>
+    <lastmod>2024-07-19T06:23:17+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/posts/soura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/soura/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-19T06:23:17+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/itt/</loc>
@@ -26,19 +52,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/posts/itt/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-09T00:02:57+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/</loc>
