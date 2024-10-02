@@ -23,3 +23,4 @@ defaultContentLanguage = "en"
 [Params]
  dateFormat = "Jan 2, 2006"
  description = "Personal blog by Emad Adel focusing on technology, software development, and practical solutions."
+ author = "Emad Adel"
