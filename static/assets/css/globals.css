@@ -181,7 +181,7 @@ iframe {
         grid-template-columns: 1fr;
         grid-template-rows: 100px auto auto auto;
         height: 100vh;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }
     header,
