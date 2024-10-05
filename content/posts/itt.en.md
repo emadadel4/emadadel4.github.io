@@ -10,6 +10,7 @@ author = "Emad Adel"
 type   = "post"
 lang   = "en"
 layout = "post"
+slug = "itt"
 +++
 
 ## Why Choose the ITT Tool?
