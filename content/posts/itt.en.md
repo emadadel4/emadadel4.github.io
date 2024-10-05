@@ -9,6 +9,7 @@ avatar = "/avatars/emadadel.jpg"
 author = "Emad Adel"
 type   = "post"
 lang   = "en"
+layout = "post"
 +++
 
 ## Why Choose the ITT Tool?

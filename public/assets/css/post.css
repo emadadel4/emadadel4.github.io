@@ -1,11 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px auto auto;
+    height: 100%;
+    width: 60%;
+    margin: auto auto;    
+}
+
 
 article {
-    width: 95%;
     text-wrap: wrap;
-    background-color: var(--FGColor);
     margin-bottom: 25px;
     padding: 25px;
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -32,7 +38,7 @@ h2{
 }
 
 .code-contnet{
-    font-size: 20px;
+    font-size: clamp(1rem,1rem,1rem);
 }
 
 @media (max-width: 768px) {
@@ -40,4 +46,14 @@ h2{
         width: 100%; 
         height: auto;
     }
+
+    /* Desktop Screen */
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto auto auto;
+        height: 100%;
+        width: 100%;
+    }
+
 }

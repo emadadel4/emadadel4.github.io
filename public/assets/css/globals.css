@@ -27,14 +27,38 @@ body.light {
     --hover:gold;
     --footer:white;
     --glow: #24292e;
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+
+
 }
 
 body {
     background: var(--bg);
     font-family: "Cairo", sans-serif;
     padding: 30px;
-
 }
+
+.background {
+    position: fixed; /* Fix the background */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+    linear-gradient(to bottom, var(--bg) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 50%, var(--bg) 100%), /* Fade at both top and bottom */
+    url("https://w.wallhaven.cc/full/we/wallhaven-wegrj6.jpg"); /* Background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: filter 0.5s ease; 
+    z-index: -1; 
+}
+
+
 
 /* Desktop Screen */
 .container {
@@ -44,11 +68,14 @@ body {
     height: 100vh;
     width: 60%;
     margin: auto auto;    
+    z-index: 1;
+    
 }
 
 /* Default */
 header {
     grid-column-start: span 4;
+
 
 }
     
@@ -65,6 +92,8 @@ aside{
     color: var(--text);
     position: sticky; 
     top: 50px; 
+    margin-left: 25px;
+    margin-right: 25px;
     align-self: start; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adjust the values to get the desired shadow */
 
@@ -119,9 +148,10 @@ select:hover {
 /* Custom */
 #card{
     background-color: var(--FGColor);
-    box-shadow: 0px 0px 5px 0.1px var(--glow);
     border-radius: 5px;
-    padding: 15px;
+    background-color: rgba(50, 50, 50, 0.9); 
+    backdrop-filter: blur(10px);
+    border-radius: 8px; 
 }
 
 .listItem{
@@ -195,10 +225,6 @@ iframe {
         width: 50%;
         height: 50%;
 
-    }
-
-    article {
-        margin: 0 9px;
     }
 
     .listItem{

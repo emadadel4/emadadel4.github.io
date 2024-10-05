@@ -1,0 +1,21 @@
+{{ define "main" }}
+<head>
+    <link rel="stylesheet" href="{{ "/assets/css/post.css" | relURL }}">
+</head>
+<body>
+
+
+
+  <article class="article" id="card">
+            
+        <h1 class="title"> {{ .Title}}</h1>
+        <small>
+            <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
+            <small>by</small> <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
+        </small>
+        <hr>
+        {{ .Content}}            
+    </article>
+
+</body>
+{{ end }}
