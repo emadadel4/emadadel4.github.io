@@ -5,19 +5,6 @@
 }
 
 :root{
-    --bg: white;
-    --FGColor: whitesmoke;
-    --text: black;
-    --textSoft: lightblue;
-    --button: blue;
-    --link: blue;
-    --hover:#7882ee;
-    --footer:black;
-    --glow: rgb(212, 212, 212);
-}
-
-body.light {
-    
     --bg: #24292e;
     --FGColor: #2f363d;
     --text: white;
@@ -27,13 +14,18 @@ body.light {
     --hover:gold;
     --footer:white;
     --glow: #24292e;
+}
 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-
-
+body.light {
+    --bg: #24292e;
+    --FGColor: #2f363d;
+    --text: white;
+    --textSoft: white;
+    --button:gold;
+    --link:#098fd4;
+    --hover:gold;
+    --footer:white;
+    --glow: #24292e;
 }
 
 body {
@@ -157,6 +149,7 @@ select:hover {
 .listItem{
     margin-bottom: 25px;
     width: 90%;
+    padding: 8px;
 }
 
 .pagination{
