@@ -1,5 +1,5 @@
 +++
-title = 'ITT Tool (Install Programs and System Optimization)'
+title = 'ITT (Install Tweaks Tool)'
 date = 2024-06-09T00:02:57+03:00
 draft = false
 description = "ITT (Install Tweaks Tool) includes all useful Windows 10/11 software, system optimizations, removal of bloatware, and Windows activation."
