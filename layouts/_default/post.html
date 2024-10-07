@@ -1,21 +1,17 @@
 {{ define "main" }}
-<head>
-    <link rel="stylesheet" href="{{ "/assets/css/post.css" | relURL }}">
-</head>
-<body>
 
+    <head>
+        <link rel="stylesheet" href="{{ "/assets/css/post.css" | relURL }}">
+    </head>
 
+    <body>
 
-  <article class="article" id="card">
-            
-        <h1 class="title"> {{ .Title}}</h1>
-        <small>
+        <article class="article" id="card">
             <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
-            <small>by</small> <a href="{{ "/authors/" | relURL }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
-        </small>
-        <hr>
-        {{ .Content}}            
-    </article>
+            <a href="https://github.com/emadadel4">{{ .Params.author }}</a>
+            <h2 class="title"> {{ .Title}}</h2>
+            <p>{{ .Content}}</p>            
+        </article>
+    </body>
 
-</body>
 {{ end }}

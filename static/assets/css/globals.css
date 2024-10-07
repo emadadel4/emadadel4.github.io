@@ -1,31 +1,36 @@
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --bg: #24292e;
-    --FGColor: #2f363d;
-    --text: white;
-    --textSoft: white;
-    --button:gold;
-    --link:#098fd4;
-    --hover:gold;
-    --footer:white;
-    --glow: #24292e;
+/* Default (Dark Mode) */
+:root {
+    --bg: #f5f5f5; /* Light background */
+    --FGColor: #e1e4e8;
+    --text: #24292e; /* Darker text */
+    --textSoft: #586069; /* Softer text */
+    --button: #007bff; /* Blue button */
+    --link: #0366d6;
+    --hover: #0056b3;
+    --footer: #24292e;
+    --glow: #e1e4e8;
 }
 
-body.light {
-    --bg: #24292e;
-    --FGColor: #2f363d;
-    --text: white;
-    --textSoft: white;
-    --button:gold;
-    --link:#098fd4;
-    --hover:gold;
-    --footer:white;
-    --glow: #24292e;
+@media (prefers-color-scheme: dark) {
+
+    /* Light Mode */
+    .dark {
+        --bg: #24292e; /* Dark background */
+        --FGColor: #2f363d;
+        --text: white;
+        --textSoft: #b0b0b0; /* Softer text */
+        --button: gold;
+        --link: #098fd4;
+        --hover: gold;
+        --footer: white;
+        --glow: #24292e;
+    }
 }
 
 body {
@@ -34,61 +39,28 @@ body {
     padding: 30px;
 }
 
-.background {
-    position: fixed; /* Fix the background */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: 
-    linear-gradient(to bottom, var(--bg) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 50%, var(--bg) 100%), /* Fade at both top and bottom */
-    url("https://w.wallhaven.cc/full/we/wallhaven-wegrj6.jpg"); /* Background image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: filter 0.5s ease; 
-    z-index: -1; 
-}
-
-
 
 /* Desktop Screen */
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px auto auto;
+    grid-template-rows: auto 1fr auto;
     height: 100vh;
-    width: 60%;
-    margin: auto auto;    
-    z-index: 1;
-    
+    width: 50%;
+    margin: auto auto auto;
 }
 
-/* Default */
 header {
     grid-column-start: span 4;
-
-
 }
     
 main {
-    grid-column-start: span 3;
+    grid-column-start: span 4;
     margin-top: 100px;
 }
 
 aside{
-    margin-top: 100px;
-    grid-column-start: span 1;
-    text-align: center;
-    grid-column-start: span 1;
-    color: var(--text);
-    position: sticky; 
-    top: 50px; 
-    margin-left: 25px;
-    margin-right: 25px;
-    align-self: start; 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adjust the values to get the desired shadow */
-
+    display: none;
 }
 
 footer{
@@ -120,8 +92,12 @@ p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
     color: var(--text);
 }
 
+h1{
+    font-size: 1.2rem;
+}
+
 select{
-    background-color: var(--FGColor);
+    background-color:transparent;
     border: transparent;
     color: var(--text);
     text-align: center;
@@ -135,96 +111,24 @@ select:hover {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-/* End Default */
-
-/* Custom */
-#card{
-    background-color: var(--FGColor);
-    border-radius: 5px;
-    background-color: rgba(50, 50, 50, 0.9); 
-    backdrop-filter: blur(10px);
-    border-radius: 8px; 
-}
-
-.listItem{
-    margin-bottom: 25px;
-    width: 90%;
-    padding: 8px;
-}
-
-.pagination{
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
-
-.page-item{
-    border: 0px solid var(--button);
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-}
-
-.page-link{
-    color: var(--text)
-}
-
-.page-item.active{
-    background-color: var(--FGColor);
-    color: black
-}
-
-.page-item.disabled{
-    background-color: var(--FGColor);
-    cursor: not-allowed;
-    border: 2px solid transparent
-
-}
-
-.left-content {
-    text-align: left;
-}
-
 iframe {
     display: block;  
     width: 100%;
     height: 100%;
 }
-/* End Custom */
 
-/* Mobile % Tablet Screen */
-@media (max-width:768px) {
+/* End Default */
 
-    .container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px auto auto auto;
-        height: 100vh;
-        width: 100%;
-        margin: 0 auto;
+/* lg */
+@media (max-width: 1024px) {
+    .container{
+        width: 90%;
     }
-    header,
-    main,
-    aside,
-    footer {
-        grid-column-start: span 1;
-    }
+}
 
-    article img{
-        width: 50%;
-        height: 50%;
-
+@media (max-width: 1280px) {
+    .container{
+        width: 90%;
     }
-
-    .listItem{
-        width: 100%;
-    }
-
-    .pagination{
-        justify-content: center;
-    }
-}    
+}
+/* lg */

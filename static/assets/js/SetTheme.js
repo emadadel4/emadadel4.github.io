@@ -1,12 +1,23 @@
-const mode = localStorage.getItem("mode") || ""
-const toogle = document.querySelector(".theme-toggle")
-const body = document.querySelector("body")
+
+let dark = localStorage.getItem('dark')
+
+const ThemeToggle = document.getElementById('theme-toggle');
+
+const EnableDarkMode = () => {
+    document.body.classList.add('dark')
+    localStorage.setItem('dark','active')
+}
+
+const DisableDarkMode = () => {
+    document.body.classList.remove('dark')
+    localStorage.setItem('dark',null)
+}
 
 
-document.body.className = mode;
+if(dark === "active") EnableDarkMode()
 
-toogle.addEventListener("click", ()=>{
+ThemeToggle.addEventListener("click", () => {
 
-    localStorage.setItem("mode", mode === "light" ? "" : "light")
-    body.classList.toggle("light")
+    dark = localStorage.getItem("dark")
+    dark !== "active" ? EnableDarkMode() : DisableDarkMode()
 })

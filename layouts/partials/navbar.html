@@ -1,44 +1,40 @@
 <nav class="navbar">
-    <div class="logo">
-        <h5>
-        </h5>
-        <a href="https://www.egyptianrc.org/Arabic/home">
-            <img src="/assets/images/ps.png" width="40" alt="">
+    <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+    <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        <span class="material-icons">menu</span>
+    </button>
+
+    <h1 class="navbar-title">
+        
+        <a href="https://github.com/emadadel4">
+            <i class="fa-brands fa-github" id="github"  style="transition: color 0.3s;"></i>
         </a>
-        <a href="{{ "/" | relLangURL }}">Emad Adel | Blog</a>
-    </div>
-    <ul>
-        <li>
-            <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
-        </li>
-        <li>
-            <li><a href="{{ "about" | relURL }}">{{ i18n "about" }}</a></li>
-        </li>
+    
         
-        <li>
-            <select onchange="window.location.href=this.value" style="transition: background-color 0.3s, color 0.3s;">
-                {{ $currentLang := .Site.Language.Lang }}
-                {{ range $.Site.Home.AllTranslations }}
-                    {{ if eq .Language.Lang $currentLang }}
-                        <option value="{{ .RelPermalink }}" selected>{{ .Language.LanguageName }}</option>
-                    {{ else }}
-                        <option value="{{ .RelPermalink }}">{{ .Language.LanguageName }}</option>
-                    {{ end }}
+        <a href="{{ "/" | relLangURL }}">Emad Adel</a>
+
+
+        <select onchange="window.location.href=this.value" style="transition: background-color 0.3s, color 0.3s;">
+            {{ $currentLang := .Site.Language.Lang }}
+            {{ range $.Site.Home.AllTranslations }}
+                {{ if eq .Language.Lang $currentLang }}
+                    <option value="{{ .RelPermalink }}" selected>{{ .Language.LanguageName }}</option>
+                {{ else }}
+                    <option value="{{ .RelPermalink }}">{{ .Language.LanguageName }}</option>
                 {{ end }}
-            </select>
-        </li>
+            {{ end }}
+        </select>
+    
+    </h1>
 
-        <li>
-            <a href="https://github.com/emadadel4" target="_blank">
-                <i class="fa-brands fa-github" id="github"  style="transition: color 0.3s;"></i>
-            </a>
-        </li>
-        
-
-        <!-- <li class="theme-toggle">
-            <i class="fa-solid fa-circle-half-stroke" style="transition: color 0.3s;"></i>
-        </li> -->
   
-    </ul>
-    <a href="#" class="mobile">&#9776;</a>
+
+    <nav class="navbar-menu">
+
+
+        <button type="button" id="theme-toggle"><i class="fa-solid fa-circle-half-stroke" style="transition: color 0.3s;"></i></button>
+
+    </nav>
+
 </nav>

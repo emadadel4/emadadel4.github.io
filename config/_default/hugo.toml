@@ -7,7 +7,7 @@ paginate = 7
   contentDir = 'content/'
   languageCode = 'en-US'
   languageDirection = 'ltr'
-  languageName = 'English'
+  languageName = 'en'
   weight = 1
 
 [languages.ar]

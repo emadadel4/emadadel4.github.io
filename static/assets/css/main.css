@@ -1,0 +1,42 @@
+.pagination{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.page-item{
+    border: 0px solid var(--button);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.page-link{
+    color: var(--text)
+}
+
+.page-item.active{
+    background-color: var(--FGColor);
+    color: black
+}
+
+.page-item.disabled{
+    background-color: var(--FGColor);
+    cursor: not-allowed;
+    border: 2px solid transparent
+
+}
+
+
+.timeline-contnet{
+    margin-bottom: 20px;
+}
+
+.timeline li{
+    list-style: none;
+}
