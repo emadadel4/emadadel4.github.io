@@ -17,20 +17,18 @@
     --glow: #e1e4e8;
 }
 
-@media (prefers-color-scheme: dark) {
 
-    /* Light Mode */
-    .dark {
-        --bg: #24292e; /* Dark background */
-        --FGColor: #2f363d;
-        --text: white;
-        --textSoft: #b0b0b0; /* Softer text */
-        --button: gold;
-        --link: #098fd4;
-        --hover: gold;
-        --footer: white;
-        --glow: #24292e;
-    }
+/* Light Mode */
+.dark {
+    --bg: #24292e; /* Dark background */
+    --FGColor: #2f363d;
+    --text: white;
+    --textSoft: #b0b0b0; /* Softer text */
+    --button: gold;
+    --link: #098fd4;
+    --hover: gold;
+    --footer: white;
+    --glow: #24292e;
 }
 
 body {

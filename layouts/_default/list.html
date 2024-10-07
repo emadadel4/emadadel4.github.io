@@ -8,6 +8,11 @@
                     <ul>
                         <li>
                             <div class="timeline-contnet">
+
+                                <small>
+                                <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+                                </small>
+
                                 <h1>
                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
                                 </h1>
