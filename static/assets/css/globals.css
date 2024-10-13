@@ -6,10 +6,11 @@
 
 /* Default (Dark Mode) */
 :root {
-    --bg: #f5f5f5; /* Light background */
+    --bg: #f8f9fc; /* Light background */
     --FGColor: #e1e4e8;
-    --text: #24292e; /* Darker text */
-    --textSoft: #586069; /* Softer text */
+    --h: #2462e9; /* Darker text */
+    --p: #4b5361;
+    --hSoft: #586069; /* Softer text */
     --button: #007bff; /* Blue button */
     --link: #0366d6;
     --hover: #0056b3;
@@ -20,10 +21,11 @@
 
 /* Light Mode */
 .dark {
-    --bg: #24292e; /* Dark background */
+    --bg: #16181b; /* Dark background */
     --FGColor: #2f363d;
-    --text: white;
-    --textSoft: #b0b0b0; /* Softer text */
+    --h: #60a5fa;
+    --p: #b8bdc7;
+    --hSoft: #b0b0b0; /* Softer text */
     --button: gold;
     --link: #098fd4;
     --hover: gold;
@@ -69,7 +71,7 @@ footer{
 
 a,i {
     text-decoration: none;
-    color: var(--text);
+    color: var(--h);
 }
 
 ul li a:hover {
@@ -86,8 +88,17 @@ ul li a:hover {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-p,h1,h2,h3,h4,h5,small,label,span,li,time,code {
-    color: var(--text);
+h1,h2,label,li,code {
+    color: var(--h);
+}
+
+time{
+    font-weight: 300;
+
+}
+
+p,h3,h4,h5{
+    color: var(--p);
 }
 
 h1{
@@ -97,7 +108,7 @@ h1{
 select{
     background-color:transparent;
     border: transparent;
-    color: var(--text);
+    color: var(--h);
     text-align: center;
     padding: 5px;
 }

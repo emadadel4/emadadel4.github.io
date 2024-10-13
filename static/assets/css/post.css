@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto 1fr auto;
     height: 100vh;
-    width: 60%;
+    width: 50%;
     margin: auto auto auto;    
 }
 
@@ -21,14 +21,14 @@ article {
 
 
 main{
-    grid-column-start: span 3;
+    grid-column-start: span 4;
 }
 
 aside{
     margin-top: 100px;
-    grid-column-start: span 1;
+    grid-column-start: span 4;
     text-align: center;
-    color: var(--text);
+    color: var(--h);
     position: sticky; 
     top: 50px; 
     margin-left: 25px;
@@ -67,14 +67,14 @@ h1,h2,h3,h4,h5,h6{
    
     .container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 1fr auto;
         height: 100vh;
-        width: 100%;
+        width: 70%;
     }
 
     main,aside{
-        grid-column-start: span 2;
+        grid-column-start: span 3;
     }
 }
 
@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6{
    
     .container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 1fr auto;
         height: 100vh;
         width: 100%;
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6{
     }
 
     aside{
-        grid-column-start: span 1;
+        grid-column-start: span 3;
     }
 }
 /* lg */
