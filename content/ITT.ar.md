@@ -10,6 +10,7 @@ author = "Emad Adel"
 type   = "post"
 lang   = "ar"
 layout = "post"
+slug = "ITT"
 +++
 
 تعتبر أداة ITT (Install Tweaks Tool) الحل الأمثل لتحسين أداء نظام Windows الخاص بك وتبسيط عملية تثبيت البرامج. إليك بعض المزايا التي تجعل ITT الخيار الأفضل لكل مستخدم:
