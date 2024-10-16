@@ -21,7 +21,12 @@ paginate = 7
 defaultContentLanguage = "en"
 
 [Params]
- dateFormat = "Jan 2, 2006"
- description = "Personal blog by Emad Adel focusing on technology, software development, and practical solutions."
- author = "Emad Adel"
- posts = "/:slug/"
+  dateFormat = "Jan 2, 2006"
+  description = "Personal blog by Emad Adel focusing on technology, software development, and practical solutions."
+  author = "Emad Adel"
+  posts = "/:slug/"
+  keywords = ["Emad Adel", "blog", "technology", "software development"]
+  ogTitle = "Emad Adel Blog"
+  ogDescription = "Personal blog by Emad Adel focusing on technology and development."
+  ogImage = "https://avatars.githubusercontent.com/u/19177373?s=400&u=778f951797417d73bfb89d2b5704422f25dc089a&v=4.png" 
+  ogType = "website"
