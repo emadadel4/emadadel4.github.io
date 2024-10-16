@@ -15,43 +15,30 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/soura/</loc>
+    <loc>http://localhost:1313/soura/</loc>
     <lastmod>2024-07-19T06:23:17+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/posts/soura/"
+                href="http://localhost:1313/ar/soura/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/posts/soura/"
+                href="http://localhost:1313/soura/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-07-19T06:23:17+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://localhost:1313/ar/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/posts/itt/</loc>
+    <loc>http://localhost:1313/itt/</loc>
     <lastmod>2024-06-09T00:02:57+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/posts/itt/"
+                href="http://localhost:1313/ar/itt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/posts/itt/"
+                href="http://localhost:1313/itt/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/</loc>

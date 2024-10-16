@@ -10,7 +10,7 @@ author = "Emad Adel"
 type   = "post"
 lang   = "en"
 layout = "post"
-slug = "itt"
+slug = "ITT"
 +++
 
 The ITT (Install Tweaks Tool) is the ultimate solution for enhancing the performance of your Windows system and simplifying the process of installing software. Here are some advantages that make ITT the best choice for every user:
