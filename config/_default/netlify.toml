@@ -16,7 +16,7 @@ package = "@netlify/plugin-sitemap"
   HUGO_VERSION = "0.101.0"
   
 [[redirects]]
-  from = "/itt"
+  from = "/ittea"
   to = "https://raw.githubusercontent.com/emadadel4/itt/refs/heads/main/itt.ps1"
   status = 301
   force = true
