@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://emadadel4.github.io/itt"
+  from = "/itt"
   to = "https://raw.githubusercontent.com/emadadel4/itt/refs/heads/main/itt.ps1"
   status = 301
   force = true
