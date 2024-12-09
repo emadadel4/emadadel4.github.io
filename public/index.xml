@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emad Adel Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://emadadel4.github.io/</link>
     <description>Recent content on Emad Adel Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 19 Jul 2024 06:23:17 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://emadadel4.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Listen to Quranic Surahs Every Day</title>
-      <link>http://localhost:1313/soura/</link>
+      <link>https://emadadel4.github.io/soura/</link>
       <pubDate>Fri, 19 Jul 2024 06:23:17 +0300</pubDate>
-      <guid>http://localhost:1313/soura/</guid>
+      <guid>https://emadadel4.github.io/soura/</guid>
       <description>&lt;p&gt;The Quran is the book of Allah that contains great teachings and values. Listening to the Quran is one of the best ways to connect with Allah and enhance spirituality in our daily lives. It also has multiple benefits, including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Increasing Faith&lt;/strong&gt;: Listening to the verses helps strengthen faith and deepen understanding of religious concepts.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Psychological Calmness&lt;/strong&gt;: The sound of the Quran brings tranquility and peace, helping to reduce stress and anxiety.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ITT (Install Tweaks Tool)</title>
-      <link>http://localhost:1313/itt/</link>
+      <link>https://emadadel4.github.io/itt/</link>
       <pubDate>Sun, 09 Jun 2024 00:02:57 +0300</pubDate>
-      <guid>http://localhost:1313/itt/</guid>
+      <guid>https://emadadel4.github.io/itt/</guid>
       <description>&lt;p&gt;The ITT (Install Tweaks Tool) is the ultimate solution for enhancing the performance of your Windows system and simplifying the process of installing software. Here are some advantages that make ITT the best choice for every user:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Automatic Installation&lt;/strong&gt;: Say goodbye to manual installations! ITT automates the software installation process, saving you time and effort, and allowing you to focus on more important tasks.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;System Tweaks&lt;/strong&gt;: With the available scripts, you can easily customize your Windows environment. ITT allows you to apply optimizations to enhance performance and user experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://emadadel4.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://emadadel4.github.io/about/</guid>
       <description>&lt;h2 id=&#34;emad-adelhttpsavatarsgithubusercontentcomu19177373v4&#34;&gt;&lt;img alt=&#34;Emad Adel&#34; src=&#34;https://avatars.githubusercontent.com/u/19177373?v=4&#34;&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I made the bold decision to leave school during my second year of junior high because I dislike an education system that turns you into a machine without independent thought, merely following what is in the books. Instead, I chose to pursue my passion for computer science, and this journey has been nothing short of exhilarating! I dove headfirst into learning English and various programming languages, and I created my very first personal website, EProjects. I&amp;rsquo;ve since transformed it into this vibrant blog that you&amp;rsquo;re reading right now! Here, I explore captivating computer science topics and provide beginner-friendly explanations to help newcomers navigate this fascinating field. Currently, I’m channeling my creativity and skills into developing my very first official video game, and I can&amp;rsquo;t wait to share it with the world!&lt;/p&gt;</description>
     </item>
   </channel>
