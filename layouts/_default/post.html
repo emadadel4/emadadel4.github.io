@@ -10,19 +10,15 @@
 
             <h2 class="title"> {{ .Title}}</h2>
 
-
-            <p>
+            {{/*  <p>
                 <h4><a href="https://github.com/emadadel4">{{ .Params.author }}</a></h4>
-            </p>
+            </p>  */}}
 
             <p style="margin-bottom: 20px;">
                 <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
             </p>
 
-
-
             <hr style="margin-bottom: 18px;">
-
 
             <p>{{ .Content}}</p>            
         </article>

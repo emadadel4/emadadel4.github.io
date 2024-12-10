@@ -15,6 +15,15 @@
         <a href="{{ "/" | relLangURL }}">Emad Adel</a>
 
 
+
+    
+    </h1>
+
+  
+
+    <nav class="navbar-menu">
+        <a href="/">{{ i18n "home" }}</a>
+        <button type="button" id="theme-toggle"><i class="fa-solid fa-circle-half-stroke" style="transition: color 0.3s;"></i></button>
         <select onchange="window.location.href=this.value" style="transition: background-color 0.3s, color 0.3s;">
             {{ $currentLang := .Site.Language.Lang }}
             {{ range $.Site.Home.AllTranslations }}
@@ -25,16 +34,5 @@
                 {{ end }}
             {{ end }}
         </select>
-    
-    </h1>
-
-  
-
-    <nav class="navbar-menu">
-
-
-        <button type="button" id="theme-toggle"><i class="fa-solid fa-circle-half-stroke" style="transition: color 0.3s;"></i></button>
-
     </nav>
-
 </nav>
