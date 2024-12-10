@@ -1,5 +1,5 @@
 [context.production.environment]
-  HUGO_VERSION = "0.101.0"
+  HUGO_VERSION = "0.124.1"
 
   [[plugins]]
 package = "@netlify/plugin-sitemap"
