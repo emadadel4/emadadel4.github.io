@@ -13,7 +13,7 @@ package = "@netlify/plugin-sitemap"
     '**/page/**'
   ]
 [build.environment]
-  HUGO_VERSION = "0.101.0"
+  HUGO_VERSION = "0.124.1"
 
 [[redirects]]
   from = "https://emadadel4.github.io/ittea"
