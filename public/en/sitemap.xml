@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://emadadel4.github.io/</loc>
     <lastmod>2024-07-19T06:23:17+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://emadadel4.github.io/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/"
+                href="https://emadadel4.github.io/"
                 />
   </url><url>
-    <loc>http://localhost:1313/soura/</loc>
+    <loc>https://emadadel4.github.io/soura/</loc>
     <lastmod>2024-07-19T06:23:17+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/soura/"
+                href="https://emadadel4.github.io/ar/soura/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/soura/"
+                href="https://emadadel4.github.io/soura/"
                 />
   </url><url>
-    <loc>http://localhost:1313/itt/</loc>
+    <loc>https://emadadel4.github.io/itt/</loc>
     <lastmod>2024-06-09T00:02:57+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/itt/"
+                href="https://emadadel4.github.io/ar/itt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/itt/"
+                href="https://emadadel4.github.io/itt/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://emadadel4.github.io/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/about/"
+                href="https://emadadel4.github.io/ar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/about/"
+                href="https://emadadel4.github.io/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://emadadel4.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://emadadel4.github.io/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/categories/"
+                href="https://emadadel4.github.io/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://emadadel4.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://emadadel4.github.io/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/tags/"
+                href="https://emadadel4.github.io/tags/"
                 />
   </url>
 </urlset>
